@@ -25,7 +25,7 @@ Before running the server, ensure that your project directory is structured corr
 
 ## Run
 
-You can build and run the server using `docker compose up --build`
+You can build and run the server using `docker compose up --build`<br>
 When you want to stop the container, run `docker compose down`
 
 ## Additional Information
