@@ -23,6 +23,11 @@ Before running the server, ensure that your project directory is structured corr
 * **Static Assets**: You must have a directory named `http-root-dir` in the project root containing your web assets (HTML, images, etc.).
 * **Root**: The server also expects there to be a http-root-dir/htdocs/index.html to route to when '/' is requested.
 
+## Run
+
+You can build and run the server using `docker compose up --build`
+When you want to stop the container, run `docker compose down`
+
 ## Additional Information
 * **Port Number** The server runs on port 6969
 * **Stats** You can access server statistics by requesting /stats
