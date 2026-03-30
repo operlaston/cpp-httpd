@@ -2,5 +2,7 @@ logs
 *.o
 myhttpd
 hello.cc
+hello.so
 use-dlopen.cc
 http-root-dir
+use-dlopen
