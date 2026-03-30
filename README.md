@@ -1,4 +1,4 @@
-#cpp-httpd
+# cpp-httpd
 An http server written for the CS252: Systems Programming Course at Purdue with some slight modifications.
 It supports basic http authentication, cgi-script execution, and directory browsing with sorting of modified date,
 name, and size (which is identical to Apache Server)
