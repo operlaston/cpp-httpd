@@ -1,0 +1,6 @@
+logs
+*.o
+myhttpd
+hello.cc
+use-dlopen.cc
+http-root-dir

@@ -1,0 +1,12 @@
+services:
+  web-server:
+    build: .
+    container_name: cpp-httpd
+    ports:
+      - "6969:6969"
+    volumes:
+      # Mounts your local directory so you can live-edit web files
+      - ./http-root-dir:/myhttpd/http-root-dir
+      # Mounts the logs file to your local machine to view traffic history
+      # - ./logs:/myhttpd/logs
+    restart: unless-stopped
