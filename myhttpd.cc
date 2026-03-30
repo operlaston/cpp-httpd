@@ -314,7 +314,7 @@ void *handle_request(void *clientfd_ptr) {
     return NULL;
   }
 
-  const char *root_dir = "/home/mlee/uni/cs252/http-server/http-root-dir";
+  const char *root_dir = PROJECT_ROOT;
   char expanded_route[256];
   memset(expanded_route, 0, 256);
   strcpy(expanded_route, root_dir);
