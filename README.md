@@ -20,4 +20,11 @@ name, and size (which is identical to Apache Server)
 
 Before running the server, ensure that your project directory is structured correctly.
 
-1. **Static Assets**: You must have a directory named `http-root-dir` in the project root containing your web assets (HTML, images, etc.).
+* **Static Assets**: You must have a directory named `http-root-dir` in the project root containing your web assets (HTML, images, etc.).
+* **Root**: The server also expects there to be a http-root-dir/htdocs/index.html to route to when '/' is requested.
+
+## Additional Information
+* **Port Number** The server runs on port 6969
+* **Stats** You can access server statistics by requesting /stats
+* **Logs** You can access server logs by requesting /logs
+* **Concurrency Modes** There are technically 3 concurrency modes (pool of threads, thread-per-request, and fork-per-request), but the docker container will always run pool of threads.
